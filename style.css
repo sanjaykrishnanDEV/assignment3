@@ -1,0 +1,47 @@
+html{
+ background-color: rgb(233, 233, 233);
+ padding-left: 25px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  
+}
+h2{
+ color: blue;  
+ font-size: 40px;   
+ font-family: 'Times New Roman', Times, serif;
+}
+.ind{
+    font-size: 20px;
+    color: black;
+}
+.boxOne{
+  column-gap: 10px;
+  height: 250px;
+  display: inline-block;
+  width: 350px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 150px; 
+  margin-top: 80px;
+  background-color: cornsilk;
+  border: 1px solid black;
+  border-radius: 10px;
+  float: left;
+}
+.boxTwo{
+    
+  float: right;
+    height: 250px;
+  width: 400px;
+  padding-left: 10px;
+  padding-right: 10px; 
+  background-color: cornsilk;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: -250px;
+  margin-right: 280px;
+
+}
